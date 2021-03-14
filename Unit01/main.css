@@ -1,0 +1,33 @@
+header{
+    position: relative;
+    margin: auto;
+    background-image: url('toa-heftiba-cVAEJL4rq8Y-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display:block;
+    padding-left: 5%;
+    color: black;
+    height: 25vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{  
+    margin: auto;  
+}
+main{
+    padding-right:5%;
+    padding-left: 5%;
+}
+
+footer{
+    background-color: #287999;
+    text-align: center;
+    color: white;
+}

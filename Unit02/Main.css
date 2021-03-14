@@ -1,0 +1,27 @@
+h1,h2,h3,h4{
+    margin:0px;
+}
+
+main,footer{
+    padding:25px !important;
+}
+header{
+    background-image: url(/28lom-superJumbo.jpg);
+    padding:25px;
+    margin:0px;
+    background-size: contain;
+}
+body{
+    margin:0px;
+   
+}
+header h1{
+    color: white;
+}
+header h2{
+    color: white;
+}
+footer{
+    background-color:black;
+    color:white;
+}
