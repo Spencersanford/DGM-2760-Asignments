@@ -1,21 +1,25 @@
 body{
     height:100vh;
+    font-family: sans-serif  !important;
 }
 
 header{
     position: relative;
     margin: auto;
-    background-image: url('toa-heftiba-cVAEJL4rq8Y-unsplash.jpg');
+    background-image: url('/Unit03/Images/header.jpg');
     background-size: cover;
     background-position: center;
     display:block;
     padding-left: 5%;
     color: black;
-    height: 25vh;
+    height: 20vh;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content:center;
+}
+#company,#slogan{
+    color:white;
 }
 
 h1,h2{
@@ -47,6 +51,8 @@ footer{
     background-color: #287999;
     color:white;
     padding:20px;
+    height: 200px;
+    border-radius: 20px;
 }
 .row{
     display:flex;
