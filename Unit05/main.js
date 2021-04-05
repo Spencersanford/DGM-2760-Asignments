@@ -30,13 +30,24 @@ document.querySelector("#add_pear").onclick = () =>{
 
 // Removing tree
 document.querySelector("#remove_1").onclick = () =>{
-    trees.shift()
-    listTrees()
+    if (trees.length > 0){
+        trees.shift()
+        listTrees()
+    }
+    else 
+    error.textContent = "I can't there are no trees"
+    
 }
 
 document.querySelector("#remove_2").onclick = () =>{
-    trees.splice(1,1)
-    listTrees()
+    if (trees.length > 1) {
+        trees.splice(1,1)
+        listTrees()
+    }
+    
+    else
+    error.textContent = "I can't there is only one tree"
+    
 }
 
 document.querySelector("#remove_last").onclick = () =>{
@@ -59,17 +70,35 @@ document.querySelector("#lowerTrees").onclick = () =>{
     })
     const lowercase = treeList.toLowerCase()
 
-    dispalyResults.innerHTML = `${lowercase} <span>${trees.length} elements long </span>`
-    
-    
+    dispalyResults.innerHTML = `${lowercase} <span>${trees.length} elements long </span>` 
+    console.log(lowercase)
 }
 
-let treeList = ""
-    trees.forEach(tree => {
-        treeList += `${tree} <br> `
+// get tree name
 
-    })
-console.log(treeList)
+document.querySelector("#name_3").onclick = () =>{
+    if (trees.length > 2){
+        var thirdTree = trees[2]
+        error.textContent = thirdTree
+    }
+   else {
+       error.textContent = "Not enough trees in the list"
+   }
+
+}
+
+document.querySelector("#name_4").onclick = () =>{
+    if (trees.length > 3) {
+        var ForuthTree = trees[3]
+        error.textContent = ForuthTree
+    }
+    
+    else {
+        error.textContent = "Not enough trees in the list"
+    }
+
+}
+
 
 
 

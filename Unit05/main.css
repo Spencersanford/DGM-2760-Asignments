@@ -6,7 +6,7 @@ body{
 header{
     position: relative;
     margin: auto;
-    background-image: url('/Unit04/FortuneTeller.jpeg');
+    background-image: url('/Unit05/Trees.jpg');
     background-size: cover;
     background-position: center;
     display:block;
@@ -40,16 +40,28 @@ main{
     justify-content: space-between;
 }
 
-#treeList{
+#thetreeList{
     width:35%;
 }
 
 #displayResults span{
-    color:red;
+    color:yellow;
 }
 
 #displayResults #no{ 
     color:black;
+}
+
+#displayResults{
+    background-color:green;
+    color:white;
+    padding:25px;
+}
+
+#error{
+    background-color:red;
+    color:white;
+    padding:25px;
 }
 
 footer{
