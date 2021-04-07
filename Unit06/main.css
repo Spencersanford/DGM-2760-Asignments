@@ -1,5 +1,4 @@
 body{
-    height:100vh;
     font-family: sans-serif  !important;
 }
 
@@ -56,8 +55,11 @@ footer{
     background-color: #287999;
     text-align: center;
     color: white;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height:50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#story{
+    margin-bottom:50px;
 }
