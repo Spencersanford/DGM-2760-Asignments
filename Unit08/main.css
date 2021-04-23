@@ -1,0 +1,61 @@
+body{
+    height:100vh;
+    font-family: sans-serif  !important;
+}
+
+header{
+    position: relative;
+    margin: auto;
+    background-image: url('/Unit08/nick-fewings-xUY5gGrwbLg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display:block;
+    padding-left: 5%;
+    color: black;
+    height: 20vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#company,#slogan{
+    color:white;
+}
+
+h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{  
+    margin: auto;  
+}
+main{
+    padding-right:5%;
+    padding-left: 5%;
+}
+
+footer{
+    background-color: #287999;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+}
+
+#questionArea{
+    display:flex;
+    flex-direction: column;
+}
+#questionArea button {
+    padding:20px;
+    margin-top:20px;
+}
+
+#feedback{
+    background-color: #287999;
+    color: white;
+    margin-top: 25px;
+    padding: 25px;
+} 
