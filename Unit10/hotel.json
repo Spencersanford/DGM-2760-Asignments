@@ -1,0 +1,35 @@
+{
+    "hotels":[{
+        "name":"marriot",
+        "rooms":"50",
+        "gym":"Yes",
+        "roomType":["King","Queen","Double"],
+        "adress":"fun street usa",
+        "picture":"room1.jpg"
+        },
+
+        {
+            "name":"sheraton",
+            "rooms":"25",
+            "gym":"Mo",
+            "roomType":["King","Suite","Double"],
+            "adress":"Peach street USA",
+            "picture":"room2.jpg"
+
+        },
+        {
+            "name":"hilton",
+            "rooms":"22",
+            "gym":"Yes",
+            "roomType":["King","Queen","Double"],
+            "adress":"112 Mickey Mouse house street",
+            "picture":"room3.jpg"
+
+        }
+    
+    
+    
+    
+    
+    ]
+}
