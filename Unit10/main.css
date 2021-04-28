@@ -6,7 +6,7 @@ body{
 header{
     position: relative;
     margin: auto;
-    background-image: url('/Unit08/grave.jpg');
+    background-image: url('/Unit10/background.jpg');
     background-size: cover;
     background-position: center;
     display:block;
@@ -38,10 +38,9 @@ footer{
     background-color: #287999;
     text-align: center;
     color: white;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height:50px;
+    display: block;
 }
 
 #questionArea{

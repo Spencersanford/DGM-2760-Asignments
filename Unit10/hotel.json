@@ -1,6 +1,6 @@
 {
     "hotels":[{
-        "name":"marriot",
+        "name":"Marriot",
         "rooms":"50",
         "gym":"Yes",
         "roomType":["King","Queen","Double"],
@@ -9,16 +9,16 @@
         },
 
         {
-            "name":"sheraton",
+            "name":"Sheraton",
             "rooms":"25",
-            "gym":"Mo",
+            "gym":"No",
             "roomType":["King","Suite","Double"],
             "adress":"Peach street USA",
             "picture":"room2.jpg"
 
         },
         {
-            "name":"hilton",
+            "name":"Hilton",
             "rooms":"22",
             "gym":"Yes",
             "roomType":["King","Queen","Double"],
