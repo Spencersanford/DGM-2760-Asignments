@@ -39,8 +39,11 @@ footer{
     text-align: center;
     color: white;
     width: 100%;
-    height:50px;
     display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 #questionArea{
@@ -58,3 +61,15 @@ footer{
     margin-top: 25px;
     padding: 25px;
 } 
+
+button {
+    background-color: #1a3046;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#hotels{
+    margin-bottom: 50px;
+}
